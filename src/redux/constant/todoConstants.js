@@ -1,0 +1,2 @@
+export const ADD_TODO_LISTS = "ADD_TODO_LISTS"
+export const DELETE_TODO_NOTE = "DELETE_TODO_NOTE"
