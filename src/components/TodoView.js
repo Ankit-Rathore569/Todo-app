@@ -16,6 +16,7 @@ const TodoView = () => {
 
         dispatch(addTodoList({ addTodo, startDate, endDate }));
     };
+    var linkStyle = { color: 'lime', cursor: 'pointer', textDecoration: "none" };
     return (
         <Fragment>
             <h1>
@@ -66,7 +67,7 @@ const TodoView = () => {
                                 <th scope="row">{index}</th>
                                 <td>{item.addTodo.slice(0, 5) + "..."}</td>
                                 <td>
-                                    <Link to="/detailview"><i className="fas fa-eye"></i></Link>
+                                    <Link to="/detailview"><i className="fas fa-eye color-white"></i></Link>
                                 </td>
                             </tr>
                         ))}

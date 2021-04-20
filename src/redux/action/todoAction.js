@@ -1,7 +1,6 @@
 import { ADD_TODO_LISTS, DELETE_TODO_NOTE } from "../constant/todoConstants"
 
 export const addTodoList = (data) => async (dispatch) => {
-    // console.log("DATA..", data) object
     dispatch({
         type: ADD_TODO_LISTS,
         payload: data

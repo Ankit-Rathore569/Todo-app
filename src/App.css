@@ -92,3 +92,18 @@ h1 {
   border: none;
   cursor: pointer;
 }
+.color-white {
+  color: white;
+}
+.greenColor {
+  color: #05f105;
+}
+.crossColor {
+  color: #e46d6d;
+}
+.deleteColor {
+  color: red;
+}
+.editColor {
+  color: #dacb13;
+}
